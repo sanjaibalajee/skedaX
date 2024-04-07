@@ -84,11 +84,15 @@ struct ContentView: View {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "EEEE"
         let formattedDay = dateFormatter.string(from: currentDate)
+        if (formattedDay=="Sunday"){
+            return "Monday"
+        }
         return formattedDay
     }
 
     func getTodayTimetableEntries() -> [TimetableEntry] {
-        let currentDay = currentDate.format("EEEE")
+        var currentDay = currentDate.format("EEEE")
+        currentDay=currentDay=="Sunday" ? "Monday" : currentDay
         return timetableData.filter { $0.day == currentDay }
     }
 
