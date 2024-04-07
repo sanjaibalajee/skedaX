@@ -1,3 +1,4 @@
+![SkedaCover](https://github.com/sanjaibalajee/skedaX/assets/87613424/e35aa56f-c6a2-4a89-8c17-a01cc68a5749)
 
 # SkedaX: Your University Attendance Tracker
 
