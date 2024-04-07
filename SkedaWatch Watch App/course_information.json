@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Theory of Computation",
+    "shortForm": "TOC",
+    "facultyInitials": "AB"
+  },
+  {
+    "id": 2,
+    "name": "Internet Programming",
+    "shortForm": "IP",
+    "facultyInitials": "SRK"
+  },
+  {
+    "id": 3,
+    "name": "Natural Language Processing",
+    "shortForm": "NLP",
+    "facultyInitials": "BB"
+  },
+  {
+    "id": 4,
+    "name": "Machine Learning",
+    "shortForm": "ML",
+    "facultyInitials": "NRS"
+  },
+  {
+    "id": 5,
+    "name": "Internet Programming Lab",
+    "shortForm": "IPL",
+    "facultyInitials": "SRK"
+  },
+  {
+    "id": 6,
+    "name": "Software System Security",
+    "shortForm": "SSS",
+    "facultyInitials": "VB"
+  },
+  {
+    "id": 7,
+    "name": "Mentor",
+    "shortForm": "MEN",
+    "facultyInitials": "NRS"
+  },
+  {
+    "id": 8,
+    "name": "Graphs",
+    "shortForm": "GR",
+    "facultyInitials": "RS"
+  },
+  {
+    "id":9,
+    "name": "Machine Learning LAB",
+    "shortForm":"MLL",
+    "facultyInitials":"NRS"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "courseId": 1,
+    "totalHoursAttended": 0,
+    "totalHours": 30
+  },
+  {
+    "courseId": 2,
+    "totalHoursAttended": 0,
+    "totalHours": 30
+  },
+  {
+    "courseId": 3,
+    "totalHoursAttended": 0,
+    "totalHours": 30
+  },
+  {
+    "courseId": 4,
+    "totalHoursAttended": 0,
+    "totalHours": 30
+  },
+  {
+    "courseId": 5,
+    "totalHoursAttended": 0,
+    "totalHours": 30
+  },
+  {
+    "courseId": 6,
+    "totalHoursAttended": 0,
+    "totalHours": 30
+  },
+  {
+    "courseId": 7,
+    "totalHoursAttended": 0,
+    "totalHours": 30
+  },
+  {
+    "courseId": 8,
+    "totalHoursAttended": 0,
+    "totalHours": 30
+  },
+  {
+    "courseId": 9,
+    "totalHoursAttended": 0,
+    "totalHours": 30
+  }
+]

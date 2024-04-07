@@ -1,0 +1,152 @@
+[
+  {
+    "courseId": 1,
+    "day": "Monday",
+    "startTime": "8:00am",
+    "endTime": "8:50am"
+  },
+  {
+    "courseId": 2,
+    "day": "Monday",
+    "startTime": "8:50am",
+    "endTime": "9:40am"
+  },
+  {
+    "courseId": 3,
+    "day": "Monday",
+    "startTime": "10:05am",
+    "endTime": "10:55am"
+  },
+  {
+    "courseId": 4,
+    "day": "Monday",
+    "startTime": "10:55am",
+    "endTime": "11:45am"
+  },
+  {
+    "courseId": 5,
+    "day": "Monday",
+    "startTime": "12:45pm",
+    "endTime": "3:40pm"
+  },
+  {
+    "courseId": 1,
+    "day": "Tuesday",
+    "startTime": "8:00am",
+    "endTime": "8:50am"
+  },
+  {
+    "courseId": 4,
+    "day": "Tuesday",
+    "startTime": "8:50am",
+    "endTime": "9:40am"
+  },
+  {
+    "courseId": 6,
+    "day": "Tuesday",
+    "startTime": "10:05am",
+    "endTime": "10:55am"
+  },
+  {
+    "courseId": 7,
+    "day": "Tuesday",
+    "startTime": "10:55am",
+    "endTime": "11:45am"
+  },
+  {
+    "courseId": 2,
+    "day": "Tuesday",
+    "startTime": "12:45pm",
+    "endTime": "1:35pm"
+  },
+  {
+    "courseId": 8,
+    "day": "Tuesday",
+    "startTime": "1:35pm",
+    "endTime": "3:40pm"
+  },
+  {
+    "courseId": 3,
+    "day": "Wednesday",
+    "startTime": "8:00am",
+    "endTime": "8:50am"
+  },
+  {
+    "courseId": 6,
+    "day": "Wednesday",
+    "startTime": "8:50am",
+    "endTime": "9:40am"
+  },
+  {
+    "courseId": 1,
+    "day": "Wednesday",
+    "startTime": "10:05am",
+    "endTime": "10:55am"
+  },
+  {
+    "courseId": 4,
+    "day": "Wednesday",
+    "startTime": "10:55am",
+    "endTime": "11:45am"
+  },
+  {
+    "courseId": 2,
+    "day": "Thursday",
+    "startTime": "8:00am",
+    "endTime": "8:50am"
+  },
+  {
+    "courseId": 6,
+    "day": "Thursday",
+    "startTime": "8:50am",
+    "endTime": "9:40am"
+  },
+  {
+    "courseId": 8,
+    "day": "Thursday",
+    "startTime": "10:05am",
+    "endTime": "10:55am"
+  },
+  {
+    "courseId": 3,
+    "day": "Thursday",
+    "startTime": "10:55am",
+    "endTime": "11:45am"
+  },
+  {
+    "courseId": 9,
+    "day": "Thursday",
+    "startTime": "12:45pm",
+    "endTime": "3:40pm"
+  },
+  {
+    "courseId": 4,
+    "day": "Friday",
+    "startTime": "8:00am",
+    "endTime": "8:50am"
+  },
+  {
+    "courseId": 6,
+    "day": "Friday",
+    "startTime": "8:50am",
+    "endTime": "9:40am"
+  },
+  {
+    "courseId": 3,
+    "day": "Friday",
+    "startTime": "10:05am",
+    "endTime": "10:55am"
+  },
+  {
+    "courseId": 2,
+    "day": "Friday",
+    "startTime": "10:55am",
+    "endTime": "11:45am"
+  },
+  {
+    "courseId": 1,
+    "day": "Friday",
+    "startTime": "12:45pm",
+    "endTime": "1:35pm"
+  }
+]

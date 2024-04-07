@@ -1,0 +1,164 @@
+{
+  "timetable": {
+    "Monday": [
+      {
+        "time": "8:00-8:50am",
+        "course": "Theory of Computation",
+        "courseShortForm": "TOC",
+        "facultyInitials": "AB"
+      },
+      {
+        "time": "8:50-9:00am",
+        "course": "Internet Programming",
+        "courseShortForm": "IP",
+        "facultyInitials": "SRK"
+      },
+      {
+        "time": "10:05-10:55am",
+        "course": "Natural Language Processing",
+        "courseShortForm": "NLP",
+        "facultyInitials": "BB"
+      },
+      {
+        "time": "10:55-11:45am",
+        "course": "Principles of Machine Learning",
+        "courseShortForm": "ML",
+        "facultyInitials": "NRS"
+      },
+      {
+        "time": "12:45-3:40pm",
+        "course": "Internet Programming Lab",
+        "courseShortForm": "IP Lab",
+        "facultyInitials": "SRK"
+      }
+    ],
+    "Tuesday": [
+      {
+        "time": "8:00-8:50am",
+        "course": "Theory of Computation",
+        "courseShortForm": "TOC",
+        "facultyInitials": "AB"
+      },
+      {
+        "time": "8:50-9:00am",
+        "course": "Principles of Machine Learning",
+        "courseShortForm": "ML",
+        "facultyInitials": "NRS"
+      },
+      {
+        "time": "10:05-10:55am",
+        "course": "Software System Security",
+        "courseShortForm": "SSS",
+        "facultyInitials": "VB"
+      },
+      {
+        "time": "10:55-11:45am",
+        "course": "Mentor",
+        "courseShortForm": "MEN",
+        "facultyInitials": "NRS"
+      },
+      {
+        "time": "12:45-1:35pm",
+        "course": "Internet Programming",
+        "courseShortForm": "IP",
+        "facultyInitials": ""
+      },
+      {
+        "time": "1:35-3:40pm",
+        "course": "Graphs",
+        "courseShortForm": "G",
+        "facultyInitials": "RS"
+      }
+    ],
+    "Wednesday": [
+      {
+        "time": "8:00-8:50am",
+        "course": "Natural Language Processing",
+        "courseShortForm": "NLP",
+        "facultyInitials": "BB"
+      },
+      {
+        "time": "8:50-9:00am",
+        "course": "Software System Security",
+        "courseShortForm": "SSS",
+        "facultyInitials": "VB"
+      },
+      {
+        "time": "10:05-10:55am",
+        "course": "Theory of Computation",
+        "courseShortForm": "TOC",
+        "facultyInitials": "AB"
+      },
+      {
+        "time": "10:55-11:45am",
+        "course": "Principles of Machine Learning",
+        "courseShortForm": "ML",
+        "facultyInitials": "NRS"
+      }
+    ],
+    "Thursday": [
+      {
+        "time": "8:00-8:50am",
+        "course": "Internet Programming",
+        "courseShortForm": "IP",
+        "facultyInitials": "SRK"
+      },
+      {
+        "time": "8:50-9:00am",
+        "course": "Software System Security",
+        "courseShortForm": "SSS",
+        "facultyInitials": "VB"
+      },
+      {
+        "time": "10:05-10:55am",
+        "course": "Graphs",
+        "courseShortForm": "G",
+        "facultyInitials": "RS"
+      },
+      {
+        "time": "10:55-11:45am",
+        "course": "Natural Language Processing",
+        "courseShortForm": "NLP",
+        "facultyInitials": "BB"
+      },
+      {
+        "time": "12:45-3:40pm",
+        "course": "Principles of Machine Learning Lab",
+        "courseShortForm": "ML Lab",
+        "facultyInitials": "NRS"
+      }
+    ],
+    "Friday": [
+      {
+        "time": "8:00-8:50am",
+        "course": "Principles of Machine Learning",
+        "courseShortForm": "ML",
+        "facultyInitials": "NRS"
+      },
+      {
+        "time": "8:50-9:00am",
+        "course": "Software System Security",
+        "courseShortForm": "SSS",
+        "facultyInitials": "VB"
+      },
+      {
+        "time": "10:05-10:55am",
+        "course": "Natural Language Processing",
+        "courseShortForm": "NLP",
+        "facultyInitials": "BB"
+      },
+      {
+        "time": "10:55-11:45am",
+        "course": "Internet Programming",
+        "courseShortForm": "IP",
+        "facultyInitials": "SRK"
+      },
+      {
+        "time": "12:45-1:35pm",
+        "course": "Theory of Computation",
+        "courseShortForm": "TOC",
+        "facultyInitials": "AB"
+      }
+    ]
+  }
+}

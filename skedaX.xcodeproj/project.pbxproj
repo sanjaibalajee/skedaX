@@ -7,21 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F370C122B827BFF001F906F /* timetable1.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F370C112B827BFF001F906F /* timetable1.json */; };
+		9F370C162B828359001F906F /* course_information.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F370C152B828359001F906F /* course_information.json */; };
+		9F4DBDC72B7BB9E90052C063 /* TimetableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4DBDC62B7BB9E90052C063 /* TimetableModel.swift */; };
+		9F4DBDCA2B7BC9D80052C063 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 9F4DBDC92B7BC9D80052C063 /* Data */; };
+		9F4DBDCE2B7BD1580052C063 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4DBDCD2B7BD1580052C063 /* MainView.swift */; };
+		9F4DBDD02B7BD2520052C063 /* TakeAttendanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4DBDCF2B7BD2520052C063 /* TakeAttendanceView.swift */; };
+		9F4DBDD22B7BD38B0052C063 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4DBDD12B7BD38B0052C063 /* CourseView.swift */; };
+		9F4DBDD52B7BEAB50052C063 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4DBDD42B7BEAB50052C063 /* DateExtensions.swift */; };
+		9F85D67C2B838FC200D821B2 /* SkedaWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F85D67B2B838FC200D821B2 /* SkedaWatchApp.swift */; };
+		9F85D67E2B838FC200D821B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F85D67D2B838FC200D821B2 /* ContentView.swift */; };
+		9F85D6802B838FC400D821B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F85D67F2B838FC400D821B2 /* Assets.xcassets */; };
+		9F85D6832B838FC400D821B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F85D6822B838FC400D821B2 /* Preview Assets.xcassets */; };
+		9F85D6862B838FC400D821B2 /* SkedaWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9F85D6792B838FC200D821B2 /* SkedaWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9F9D31C12B7BB2000089EC43 /* skedaXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9D31C02B7BB2000089EC43 /* skedaXApp.swift */; };
 		9F9D31C32B7BB2000089EC43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9D31C22B7BB2000089EC43 /* ContentView.swift */; };
 		9F9D31C52B7BB2020089EC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9D31C42B7BB2020089EC43 /* Assets.xcassets */; };
 		9F9D31C82B7BB2020089EC43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9D31C72B7BB2020089EC43 /* Preview Assets.xcassets */; };
+		9F9D31D82B7BB2CB0089EC43 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9D31D72B7BB2CB0089EC43 /* CodableBundleExtension.swift */; };
+		9FDBD0272B83B8D700D8FD2B /* course_information.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FDBD0242B83B8D700D8FD2B /* course_information.json */; };
+		9FDBD0282B83B8D700D8FD2B /* timetable1.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FDBD0252B83B8D700D8FD2B /* timetable1.json */; };
+		9FDBD0292B83B8D700D8FD2B /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBD0262B83B8D700D8FD2B /* CodableExtension.swift */; };
+		9FDBD02B2B83B90600D8FD2B /* TimeTableModelWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBD02A2B83B90600D8FD2B /* TimeTableModelWatch.swift */; };
+		9FDBD02D2B83B9EB00D8FD2B /* CourseItemWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBD02C2B83B9EB00D8FD2B /* CourseItemWatchView.swift */; };
+		9FE6F14B2B7F43DD00E73A66 /* editAttendenceDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6F14A2B7F43DD00E73A66 /* editAttendenceDataView.swift */; };
+		9FE6F14D2B8222FE00E73A66 /* showAllCoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6F14C2B8222FE00E73A66 /* showAllCoursesView.swift */; };
+		9FE6F14F2B82258800E73A66 /* EditCourseListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6F14E2B82258800E73A66 /* EditCourseListItem.swift */; };
+		9FE6F1512B82428400E73A66 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6F1502B82428400E73A66 /* ViewExtension.swift */; };
+		9FE6F15B2B826F3800E73A66 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE6F15A2B826F3700E73A66 /* WidgetKit.framework */; };
+		9FE6F15D2B826F3800E73A66 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE6F15C2B826F3800E73A66 /* SwiftUI.framework */; };
+		9FE6F1602B826F3800E73A66 /* SkedaGlanceBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6F15F2B826F3800E73A66 /* SkedaGlanceBundle.swift */; };
+		9FE6F1622B826F3800E73A66 /* SkedaGlance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6F1612B826F3800E73A66 /* SkedaGlance.swift */; };
+		9FE6F1642B826F3A00E73A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE6F1632B826F3A00E73A66 /* Assets.xcassets */; };
+		9FE6F1682B826F3A00E73A66 /* SkedaGlanceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9FE6F1582B826F3700E73A66 /* SkedaGlanceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9FE6F16E2B82726B00E73A66 /* TimeTableModelWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6F16D2B82726B00E73A66 /* TimeTableModelWidget.swift */; };
+		9FE6F1702B8273C700E73A66 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6F16F2B8273C700E73A66 /* CodableExtension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9F85D6842B838FC400D821B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F9D31B52B7BB2000089EC43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F85D6782B838FC200D821B2;
+			remoteInfo = "SkedaWatch Watch App";
+		};
+		9FE6F1662B826F3A00E73A66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F9D31B52B7BB2000089EC43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FE6F1572B826F3700E73A66;
+			remoteInfo = SkedaGlanceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9F85D6872B838FC400D821B2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9F85D6862B838FC400D821B2 /* SkedaWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE6F16C2B826F3A00E73A66 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9FE6F1682B826F3A00E73A66 /* SkedaGlanceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9F370C112B827BFF001F906F /* timetable1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timetable1.json; sourceTree = "<group>"; };
+		9F370C152B828359001F906F /* course_information.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = course_information.json; sourceTree = "<group>"; };
+		9F4DBDC62B7BB9E90052C063 /* TimetableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableModel.swift; sourceTree = "<group>"; };
+		9F4DBDC92B7BC9D80052C063 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+		9F4DBDCD2B7BD1580052C063 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9F4DBDCF2B7BD2520052C063 /* TakeAttendanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeAttendanceView.swift; sourceTree = "<group>"; };
+		9F4DBDD12B7BD38B0052C063 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		9F4DBDD32B7BE0690052C063 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9F4DBDD42B7BEAB50052C063 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		9F85D6792B838FC200D821B2 /* SkedaWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkedaWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F85D67B2B838FC200D821B2 /* SkedaWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkedaWatchApp.swift; sourceTree = "<group>"; };
+		9F85D67D2B838FC200D821B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F85D67F2B838FC400D821B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F85D6822B838FC400D821B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F9D31BD2B7BB2000089EC43 /* skedaX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skedaX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9D31C02B7BB2000089EC43 /* skedaXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skedaXApp.swift; sourceTree = "<group>"; };
 		9F9D31C22B7BB2000089EC43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F9D31C42B7BB2020089EC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F9D31C72B7BB2020089EC43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F9D31D72B7BB2CB0089EC43 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		9FDBD0242B83B8D700D8FD2B /* course_information.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = course_information.json; sourceTree = "<group>"; };
+		9FDBD0252B83B8D700D8FD2B /* timetable1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timetable1.json; sourceTree = "<group>"; };
+		9FDBD0262B83B8D700D8FD2B /* CodableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
+		9FDBD02A2B83B90600D8FD2B /* TimeTableModelWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableModelWatch.swift; sourceTree = "<group>"; };
+		9FDBD02C2B83B9EB00D8FD2B /* CourseItemWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItemWatchView.swift; sourceTree = "<group>"; };
+		9FE6F14A2B7F43DD00E73A66 /* editAttendenceDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editAttendenceDataView.swift; sourceTree = "<group>"; };
+		9FE6F14C2B8222FE00E73A66 /* showAllCoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showAllCoursesView.swift; sourceTree = "<group>"; };
+		9FE6F14E2B82258800E73A66 /* EditCourseListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCourseListItem.swift; sourceTree = "<group>"; };
+		9FE6F1502B82428400E73A66 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		9FE6F1532B8250A100E73A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9FE6F1582B826F3700E73A66 /* SkedaGlanceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SkedaGlanceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE6F15A2B826F3700E73A66 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		9FE6F15C2B826F3800E73A66 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9FE6F15F2B826F3800E73A66 /* SkedaGlanceBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkedaGlanceBundle.swift; sourceTree = "<group>"; };
+		9FE6F1612B826F3800E73A66 /* SkedaGlance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkedaGlance.swift; sourceTree = "<group>"; };
+		9FE6F1632B826F3A00E73A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FE6F1652B826F3A00E73A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE6F16D2B82726B00E73A66 /* TimeTableModelWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableModelWidget.swift; sourceTree = "<group>"; };
+		9FE6F16F2B8273C700E73A66 /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9F85D6762B838FC200D821B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F9D31BA2B7BB2000089EC43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,13 +143,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FE6F1552B826F3700E73A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE6F15D2B826F3800E73A66 /* SwiftUI.framework in Frameworks */,
+				9FE6F15B2B826F3800E73A66 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F4DBDCB2B7BD12E0052C063 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F4DBDD12B7BD38B0052C063 /* CourseView.swift */,
+				9FE6F14E2B82258800E73A66 /* EditCourseListItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F4DBDCC2B7BD13D0052C063 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9F9D31C22B7BB2000089EC43 /* ContentView.swift */,
+				9F4DBDD32B7BE0690052C063 /* MyPlayground.playground */,
+				9F9D31C02B7BB2000089EC43 /* skedaXApp.swift */,
+				9F4DBDCD2B7BD1580052C063 /* MainView.swift */,
+				9F4DBDCF2B7BD2520052C063 /* TakeAttendanceView.swift */,
+				9FE6F14A2B7F43DD00E73A66 /* editAttendenceDataView.swift */,
+				9FE6F14C2B8222FE00E73A66 /* showAllCoursesView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9F85D67A2B838FC200D821B2 /* SkedaWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9F85D67B2B838FC200D821B2 /* SkedaWatchApp.swift */,
+				9F85D67D2B838FC200D821B2 /* ContentView.swift */,
+				9FDBD0262B83B8D700D8FD2B /* CodableExtension.swift */,
+				9FDBD0242B83B8D700D8FD2B /* course_information.json */,
+				9FDBD0252B83B8D700D8FD2B /* timetable1.json */,
+				9F85D67F2B838FC400D821B2 /* Assets.xcassets */,
+				9FDBD02A2B83B90600D8FD2B /* TimeTableModelWatch.swift */,
+				9F85D6812B838FC400D821B2 /* Preview Content */,
+				9FDBD02C2B83B9EB00D8FD2B /* CourseItemWatchView.swift */,
+			);
+			path = "SkedaWatch Watch App";
+			sourceTree = "<group>";
+		};
+		9F85D6812B838FC400D821B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F85D6822B838FC400D821B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		9F9D31B42B7BB2000089EC43 = {
 			isa = PBXGroup;
 			children = (
 				9F9D31BF2B7BB2000089EC43 /* skedaX */,
+				9FE6F15E2B826F3800E73A66 /* SkedaGlance */,
+				9F85D67A2B838FC200D821B2 /* SkedaWatch Watch App */,
+				9FE6F1592B826F3700E73A66 /* Frameworks */,
 				9F9D31BE2B7BB2000089EC43 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +217,8 @@
 			isa = PBXGroup;
 			children = (
 				9F9D31BD2B7BB2000089EC43 /* skedaX.app */,
+				9FE6F1582B826F3700E73A66 /* SkedaGlanceExtension.appex */,
+				9F85D6792B838FC200D821B2 /* SkedaWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +226,12 @@
 		9F9D31BF2B7BB2000089EC43 /* skedaX */ = {
 			isa = PBXGroup;
 			children = (
-				9F9D31C02B7BB2000089EC43 /* skedaXApp.swift */,
-				9F9D31C22B7BB2000089EC43 /* ContentView.swift */,
+				9FE6F1522B82500600E73A66 /* Model */,
+				9FE6F1532B8250A100E73A66 /* Info.plist */,
+				9F4DBDCC2B7BD13D0052C063 /* Screens */,
+				9F4DBDCB2B7BD12E0052C063 /* Views */,
+				9F9D31D62B7BB2B20089EC43 /* Extensions */,
+				9F4DBDC92B7BC9D80052C063 /* Data */,
 				9F9D31C42B7BB2020089EC43 /* Assets.xcassets */,
 				9F9D31C62B7BB2020089EC43 /* Preview Content */,
 			);
@@ -67,9 +246,68 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9F9D31D62B7BB2B20089EC43 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9F9D31D72B7BB2CB0089EC43 /* CodableBundleExtension.swift */,
+				9F4DBDD42B7BEAB50052C063 /* DateExtensions.swift */,
+				9FE6F1502B82428400E73A66 /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9FE6F1522B82500600E73A66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F4DBDC62B7BB9E90052C063 /* TimetableModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FE6F1592B826F3700E73A66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FE6F15A2B826F3700E73A66 /* WidgetKit.framework */,
+				9FE6F15C2B826F3800E73A66 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FE6F15E2B826F3800E73A66 /* SkedaGlance */ = {
+			isa = PBXGroup;
+			children = (
+				9FE6F16D2B82726B00E73A66 /* TimeTableModelWidget.swift */,
+				9FE6F15F2B826F3800E73A66 /* SkedaGlanceBundle.swift */,
+				9FE6F1612B826F3800E73A66 /* SkedaGlance.swift */,
+				9FE6F1632B826F3A00E73A66 /* Assets.xcassets */,
+				9FE6F1652B826F3A00E73A66 /* Info.plist */,
+				9F370C112B827BFF001F906F /* timetable1.json */,
+				9F370C152B828359001F906F /* course_information.json */,
+				9FE6F16F2B8273C700E73A66 /* CodableExtension.swift */,
+			);
+			path = SkedaGlance;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9F85D6782B838FC200D821B2 /* SkedaWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F85D68A2B838FC400D821B2 /* Build configuration list for PBXNativeTarget "SkedaWatch Watch App" */;
+			buildPhases = (
+				9F85D6752B838FC200D821B2 /* Sources */,
+				9F85D6762B838FC200D821B2 /* Frameworks */,
+				9F85D6772B838FC200D821B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkedaWatch Watch App";
+			productName = "SkedaWatch Watch App";
+			productReference = 9F85D6792B838FC200D821B2 /* SkedaWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		9F9D31BC2B7BB2000089EC43 /* skedaX */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F9D31CB2B7BB2020089EC43 /* Build configuration list for PBXNativeTarget "skedaX" */;
@@ -77,15 +315,36 @@
 				9F9D31B92B7BB2000089EC43 /* Sources */,
 				9F9D31BA2B7BB2000089EC43 /* Frameworks */,
 				9F9D31BB2B7BB2000089EC43 /* Resources */,
+				9FE6F16C2B826F3A00E73A66 /* Embed Foundation Extensions */,
+				9F85D6872B838FC400D821B2 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9FE6F1672B826F3A00E73A66 /* PBXTargetDependency */,
+				9F85D6852B838FC400D821B2 /* PBXTargetDependency */,
 			);
 			name = skedaX;
 			productName = skedaX;
 			productReference = 9F9D31BD2B7BB2000089EC43 /* skedaX.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9FE6F1572B826F3700E73A66 /* SkedaGlanceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE6F1692B826F3A00E73A66 /* Build configuration list for PBXNativeTarget "SkedaGlanceExtension" */;
+			buildPhases = (
+				9FE6F1542B826F3700E73A66 /* Sources */,
+				9FE6F1552B826F3700E73A66 /* Frameworks */,
+				9FE6F1562B826F3700E73A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkedaGlanceExtension;
+			productName = SkedaGlanceExtension;
+			productReference = 9FE6F1582B826F3700E73A66 /* SkedaGlanceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,7 +356,13 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					9F85D6782B838FC200D821B2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					9F9D31BC2B7BB2000089EC43 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					9FE6F1572B826F3700E73A66 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -116,35 +381,165 @@
 			projectRoot = "";
 			targets = (
 				9F9D31BC2B7BB2000089EC43 /* skedaX */,
+				9FE6F1572B826F3700E73A66 /* SkedaGlanceExtension */,
+				9F85D6782B838FC200D821B2 /* SkedaWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9F85D6772B838FC200D821B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F85D6832B838FC400D821B2 /* Preview Assets.xcassets in Resources */,
+				9FDBD0272B83B8D700D8FD2B /* course_information.json in Resources */,
+				9F85D6802B838FC400D821B2 /* Assets.xcassets in Resources */,
+				9FDBD0282B83B8D700D8FD2B /* timetable1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F9D31BB2B7BB2000089EC43 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9F9D31C82B7BB2020089EC43 /* Preview Assets.xcassets in Resources */,
 				9F9D31C52B7BB2020089EC43 /* Assets.xcassets in Resources */,
+				9F4DBDCA2B7BC9D80052C063 /* Data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE6F1562B826F3700E73A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE6F1642B826F3A00E73A66 /* Assets.xcassets in Resources */,
+				9F370C162B828359001F906F /* course_information.json in Resources */,
+				9F370C122B827BFF001F906F /* timetable1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9F85D6752B838FC200D821B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F85D67E2B838FC200D821B2 /* ContentView.swift in Sources */,
+				9FDBD02B2B83B90600D8FD2B /* TimeTableModelWatch.swift in Sources */,
+				9F85D67C2B838FC200D821B2 /* SkedaWatchApp.swift in Sources */,
+				9FDBD02D2B83B9EB00D8FD2B /* CourseItemWatchView.swift in Sources */,
+				9FDBD0292B83B8D700D8FD2B /* CodableExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F9D31B92B7BB2000089EC43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9F9D31C32B7BB2000089EC43 /* ContentView.swift in Sources */,
+				9F4DBDD22B7BD38B0052C063 /* CourseView.swift in Sources */,
+				9F4DBDC72B7BB9E90052C063 /* TimetableModel.swift in Sources */,
 				9F9D31C12B7BB2000089EC43 /* skedaXApp.swift in Sources */,
+				9F4DBDCE2B7BD1580052C063 /* MainView.swift in Sources */,
+				9FE6F14B2B7F43DD00E73A66 /* editAttendenceDataView.swift in Sources */,
+				9FE6F1512B82428400E73A66 /* ViewExtension.swift in Sources */,
+				9FE6F14D2B8222FE00E73A66 /* showAllCoursesView.swift in Sources */,
+				9F4DBDD52B7BEAB50052C063 /* DateExtensions.swift in Sources */,
+				9F4DBDD02B7BD2520052C063 /* TakeAttendanceView.swift in Sources */,
+				9F9D31D82B7BB2CB0089EC43 /* CodableBundleExtension.swift in Sources */,
+				9FE6F14F2B82258800E73A66 /* EditCourseListItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE6F1542B826F3700E73A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE6F1702B8273C700E73A66 /* CodableExtension.swift in Sources */,
+				9FE6F16E2B82726B00E73A66 /* TimeTableModelWidget.swift in Sources */,
+				9FE6F1622B826F3800E73A66 /* SkedaGlance.swift in Sources */,
+				9FE6F1602B826F3800E73A66 /* SkedaGlanceBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9F85D6852B838FC400D821B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F85D6782B838FC200D821B2 /* SkedaWatch Watch App */;
+			targetProxy = 9F85D6842B838FC400D821B2 /* PBXContainerItemProxy */;
+		};
+		9FE6F1672B826F3A00E73A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FE6F1572B826F3700E73A66 /* SkedaGlanceExtension */;
+			targetProxy = 9FE6F1662B826F3A00E73A66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		9F85D6882B838FC400D821B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkedaWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6XPJ8Y7CK2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SkedaWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.sanjaibalajee.skedaX;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaibalajee.skedaX.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		9F85D6892B838FC400D821B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkedaWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6XPJ8Y7CK2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SkedaWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.sanjaibalajee.skedaX;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaibalajee.skedaX.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 		9F9D31C92B7BB2020089EC43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -267,6 +662,7 @@
 		9F9D31CC2B7BB2020089EC43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -275,11 +671,14 @@
 				DEVELOPMENT_TEAM = 6XPJ8Y7CK2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = skedaX/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Skeda;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,6 +695,7 @@
 		9F9D31CD2B7BB2020089EC43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,11 +704,14 @@
 				DEVELOPMENT_TEAM = 6XPJ8Y7CK2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = skedaX/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Skeda;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,9 +725,72 @@
 			};
 			name = Release;
 		};
+		9FE6F16A2B826F3A00E73A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XPJ8Y7CK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkedaGlance/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkedaGlance;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaibalajee.skedaX.SkedaGlance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FE6F16B2B826F3A00E73A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6XPJ8Y7CK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkedaGlance/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkedaGlance;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjaibalajee.skedaX.SkedaGlance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9F85D68A2B838FC400D821B2 /* Build configuration list for PBXNativeTarget "SkedaWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F85D6882B838FC400D821B2 /* Debug */,
+				9F85D6892B838FC400D821B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9F9D31B82B7BB2000089EC43 /* Build configuration list for PBXProject "skedaX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -339,6 +805,15 @@
 			buildConfigurations = (
 				9F9D31CC2B7BB2020089EC43 /* Debug */,
 				9F9D31CD2B7BB2020089EC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE6F1692B826F3A00E73A66 /* Build configuration list for PBXNativeTarget "SkedaGlanceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE6F16A2B826F3A00E73A66 /* Debug */,
+				9FE6F16B2B826F3A00E73A66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
